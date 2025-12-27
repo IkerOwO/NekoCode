@@ -69,25 +69,25 @@ https://localhost:5001
 - Cloud project storage
 
 🤝 Contributing
-Contributions are welcome!
+- Contributions are welcome!
 
-Fork the repository
+- Fork the repository
 
-Create your feature branch (git checkout -b feature/amazing-feature)
+- Create your feature branch (git checkout -b feature/amazing-feature)
 
-Commit your changes
+- Commit your changes
 
-Push to the branch
+- Push to the branch
 
-Open a Pull Request
+- Open a Pull Request
 
 📄 License
-This project is licensed under the MIT License.
-See the LICENSE file for more information.
+- This project is licensed under the MIT License.
+- See the LICENSE file for more information.
 
 💜 Acknowledgements
-The Blazor & .NET community
+- The Blazor & .NET community
 
-Open-source projects that inspired NekoCode
+- Open-source projects that inspired NekoCode
 
-Coffee ☕ and cats 🐾
+- Coffee ☕ and cats 🐾
