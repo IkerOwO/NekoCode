@@ -4,28 +4,26 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🌐 Web-based IDE powered by Blazor  
-- 🧩 Modular architecture using C#  
-- ✍️ Code editor with syntax highlighting *(in progress)*  
-- 📁 Project & file management  
-- ▶️ Run / Build integration *(planned)*  
-- 🎨 Clean and customizable UI  
-- 🐱 Developer-friendly experience with a touch of neko vibes  
+- Web-based IDE powered by Blazor  
+- Modular architecture using C#  
+- Code editor with syntax highlighting *(in progress)*  
+- Project & file management  
+- Run / Build integration *(planned)*  
+- Clean and customizable UI  
+- Developer-friendly experience
 
 ---
 
-## 🛠️ Built With
+## Built With
 
-- **Blazor** (Server / WebAssembly)
+- **Blazor** (WebAssembly)
 - **C# / .NET**
-- **HTML5 / CSS3**
-- **JavaScript** (interop where needed)
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -46,7 +44,7 @@ Then open your browser at:
 ```bash
 https://localhost:5001
 ```
-## 🧠 Project Goals
+## Project Goals
 - Provide a lightweight IDE accessible from anywhere
 
 - Focus on clarity, performance, and usability
@@ -55,7 +53,7 @@ https://localhost:5001
 
 - Serve as a learning and experimentation platform for .NET developers
 
-## 🗺️ Roadmap
+## Roadmap
 - Advanced code editor (Monaco integration)
 
 - Multi-language support
@@ -68,7 +66,7 @@ https://localhost:5001
 
 - Cloud project storage
 
-## 🤝 Contributing
+## Contributing
 - Contributions are welcome!
 
 - Fork the repository
@@ -81,13 +79,13 @@ https://localhost:5001
 
 - Open a Pull Request
 
-## 📄 License
+## License
 - This project is licensed under the MIT License.
 - See the LICENSE file for more information.
 
-## 💜 Acknowledgements
+## Acknowledgements
 - The Blazor & .NET community
 
 - Open-source projects that inspired NekoCode
 
-- Coffee ☕ and cats 🐾
+- Cats 🐾
