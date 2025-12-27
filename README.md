@@ -1,6 +1,6 @@
 # 🐾 NekoCode
 
-**NekoCode** is a web-based IDE built with **Blazor** and **C#**, designed to provide a clean, intuitive, and efficient development experience directly from the browser.
+**NekoCode** is a web-based IDE built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
 
 ---
 
