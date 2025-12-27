@@ -29,7 +29,7 @@
 
 ### Prerequisites
 
-- [.NET SDK 7.0+](https://dotnet.microsoft.com/)
+- [.NET SDK 10](https://dotnet.microsoft.com/)
 - A modern web browser
 - Visual Studio or VS Code (recommended)
 
@@ -47,26 +47,26 @@ Then open your browser at:
 https://localhost:5001
 ```
 🧠 Project Goals
-Provide a lightweight IDE accessible from anywhere
+- Provide a lightweight IDE accessible from anywhere
 
-Focus on clarity, performance, and usability
+- Focus on clarity, performance, and usability
 
-Explore the full potential of Blazor for complex web applications
+- Explore the full potential of Blazor for complex web applications
 
-Serve as a learning and experimentation platform for .NET developers
+- Serve as a learning and experimentation platform for .NET developers
 
 🗺️ Roadmap
- Advanced code editor (Monaco integration)
+- Advanced code editor (Monaco integration)
 
- Multi-language support
+- Multi-language support
 
- Plugin / extension system
+- Plugin / extension system
 
- Theme customization (Dark / Light)
+- Theme customization (Dark / Light)
 
- Project templates
+- Project templates
 
- Cloud project storage
+- Cloud project storage
 
 🤝 Contributing
 Contributions are welcome!
