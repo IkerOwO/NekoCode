@@ -9,7 +9,7 @@ public class Main {
         Dashboard dashboard = new Dashboard();
         try {
             dashboard.setSize(1920,1080);
-            dashboard.setResizable(true);
+            dashboard.setResizable(false);
             dashboard.setTitle("NekoCode");
             dashboard.setVisible(true);
             dashboard.setIconImage(new ImageIcon(Objects.requireNonNull(Main.class.getResource("/assets/icon.png"))).getImage());
