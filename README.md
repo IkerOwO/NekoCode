@@ -1,4 +1,4 @@
-# 🐾 NekoCode
+# NekoCode
 
 **NekoCode** is a Java IDE built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
 
@@ -27,8 +27,3 @@
 ## License
 - This project is licensed under the MIT License.
 - See the LICENSE file for more information.
-
-## Acknowledgements
-- Open-source projects that inspired NekoCode
-
-- Cats 🐾
