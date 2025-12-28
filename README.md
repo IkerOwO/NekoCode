@@ -1,17 +1,6 @@
 # 🐾 NekoCode
 
-**NekoCode** is an IDE built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
-
----
-
-## Features
-
-- IDE made with Java
-- Code editor with syntax highlighting *(in progress)*  
-- Project & file management  
-- Run / Build integration *(planned)*  
-- Clean and customizable UI  
-- Developer-friendly experience
+**NekoCode** is markdown converter built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
 
 ---
 
@@ -21,25 +10,6 @@
 - **Swing**
 
 ---
-
-## Project Goals
-- Provide a lightweight IDE accessible from anywhere
-
-- Focus on clarity, performance, and usability
-
-
-## Roadmap
-- Advanced code editor (Monaco integration)
-
-- Multi-language support
-
-- Plugin / extension system
-
-- Theme customization (Dark / Light)
-
-- Project templates
-
-- Cloud project storage
 
 ## Contributing
 - Contributions are welcome!
