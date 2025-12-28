@@ -14,7 +14,7 @@ public class Editor extends JFrame {
     final JLabel fileNameLbl;
     final JTextArea codeArea;
     final JTextArea terminalArea;
-    final JButton writeInfoBTN, compileBTN;
+    final JButton writeInfoBTN, compileBTN, themeBTN;
     private final File file;
 
     public Editor(File file) {
@@ -48,10 +48,16 @@ public class Editor extends JFrame {
         fileNameLbl.setVisible(true);
         add(fileNameLbl);
 
+        themeBTN = new JButton("Theme");
+        themeBTN.setBounds(10, 250, 120, 30);
+        themeBTN.setVisible(true);
+        themeBTN.addActionListener(this::changeTheme);
+        add(themeBTN);
+
         codeArea = new JTextArea();
         codeArea.setLineWrap(false);
         codeArea.setWrapStyleWord(false);
-        codeArea.setFont(new Font("Aptos", Font.PLAIN, 12));
+        codeArea.setFont(new Font("Aptos", Font.PLAIN, 14));
 
         // TABS LIKE ON A NORMAL IDE
         codeArea.setTabSize(4);
@@ -103,6 +109,27 @@ public class Editor extends JFrame {
     public void writeIntoFile(ActionEvent a) {
         String code = codeArea.getText();
         CreateFileClass.writeToFile(file, code);
+    }
+
+    public void changeTheme(ActionEvent e){
+        Color getBackground = getContentPane().getBackground();
+        if(getBackground.equals(Color.WHITE)){
+            getContentPane().setBackground(Color.DARK_GRAY);
+            getContentPane().setForeground(Color.WHITE);
+            fileNameLbl.setForeground(Color.WHITE);
+            codeArea.setBackground(Color.DARK_GRAY);
+            codeArea.setForeground(Color.WHITE);
+            terminalArea.setBackground(Color.DARK_GRAY);
+            terminalArea.setForeground(Color.WHITE);
+        } else {
+            getContentPane().setBackground(Color.WHITE);
+            getContentPane().setForeground(Color.BLACK);
+            fileNameLbl.setForeground(Color.BLACK);
+            codeArea.setBackground(Color.WHITE);
+            codeArea.setForeground(Color.BLACK);
+            terminalArea.setBackground(Color.WHITE);
+            terminalArea.setForeground(Color.BLACK);
+        }
     }
 }
 

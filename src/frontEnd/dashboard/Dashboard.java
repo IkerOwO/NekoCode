@@ -46,23 +46,13 @@ public class Dashboard extends JFrame {
         // CREATE FILE VIA UTILS CLASS
         File file = CreateFileClass.createFile(fileName);
         try{
-            // Color getBackground = getContentPane().getBackground();
             Editor page = new Editor(file);
             page.setVisible(true);
             page.setTitle("Editor");
             page.setSize(1920,1080);
             page.setIconImage(new ImageIcon(Objects.requireNonNull(Editor.class.getResource("/assets/icon.png"))).getImage());
-            page.setResizable(false);
+            page.setResizable(true);
             page.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            /*
-            if(getBackground.equals(Color.WHITE)){
-                page.getContentPane().setBackground(Color.WHITE);
-                page.getContentPane().setForeground(Color.BLACK);
-            } else {
-                page.getContentPane().setBackground(Color.DARK_GRAY);
-                page.getContentPane().setForeground(Color.WHITE);
-            }
-             */
             dashboard.setVisible(false);
         } catch (Exception ex) {
             throw new RuntimeException(ex);
