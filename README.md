@@ -16,7 +16,7 @@
 
 - Fork the repository
 
-- Create your feature branch (git checkout -b feature/amazing-feature)
+- Create your feature branch (git checkout -b feature/idkBranch)
 
 - Commit your changes
 
