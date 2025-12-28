@@ -1,6 +1,6 @@
 # 🐾 NekoCode
 
-**NekoCode** is an IDE built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
+**NekoCode** is a Java IDE built with **Java**, designed to provide a clean, intuitive, and efficient development experience.
 
 ---
 
